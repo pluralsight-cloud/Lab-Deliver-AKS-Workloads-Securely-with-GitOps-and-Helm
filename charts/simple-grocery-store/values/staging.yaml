@@ -23,10 +23,6 @@ productService:
     NODE_ENV: production
     MONGODB_URI: "" # Set this to your CosmosDB connection string for products
 
-  secret:
-    create: true
-    name: product-secrets
-
   resources:
     limits:
       cpu: 500m
